@@ -5,7 +5,7 @@ const pContain = document.getElementById('posts-list');
 const pBody = document.getElementById('posts-content');
 window.onload = function getWPPosts(){
     
-    fetch('http://headless-cmf.pantheonlocal.com/wp-json/wp/v2/posts')
+    fetch('http://dev-headless-cmf.pantheonsite.io/wp-json/wp/v2/posts')
     
     // response
     .then(r => r.json())
